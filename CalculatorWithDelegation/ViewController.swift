@@ -28,11 +28,11 @@ class ViewController: UIViewController, CalculatorViewDataSource, CalculatorView
     }
     
     func getButtons() -> [[String]] {
-        return [["+", "/", "*", "-"], ["1", "2", "3", "4", "5"]]
+        return [["+", "-"], ["1", "2"]]
     }
     
     func didPress(symbol: String) {
-        
+        print(symbol)
     }
 }
 
